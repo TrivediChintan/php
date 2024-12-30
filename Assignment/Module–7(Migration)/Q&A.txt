@@ -1,0 +1,7 @@
+1>.how to do config database in Laravel
+A>. in .env file in which database you store that insert db_connection variable database name and other are fill auto
+also you do in config/database.phpvfile and find connection  array that you connect it with database credentials
+
+
+2.>Call MySQLi Store Procedure from Laravel.
+A.> DB::select('exec my_stored_procedure("param1","param2",.....)');
