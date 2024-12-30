@@ -1,0 +1,16 @@
+1>. Explain ORM
+A>. Object-Relational Mapping (ORM) is a programming technique that connects object-oriented programming (OOP) languages to relational databases
+ORMs can help simplify development and increase productivity, but they may not be the best choice for applications that need high performance.
+ORM uses metadata descriptors to create a layer between the two systems, allowing programmers to work with data without needing to understand structured query language (SQL).
+
+2.> Explain - Eloquent Relationships
+A>. Eloquent relationships in Laravel are a way to define the relationship between models and databases.This allows for method chaining and querying capabilities.They are defined as methods on Eloquent model classes, and can be used as query builders.
+
+3>. What is Eager Loading and lazy loading?
+A>. Lazy Loading and Eager Loading both are strategies to manage how data is fetched from a database or API in application development in System design. Lazy Loading delays loading related data until it's actually accessed, while Eager Loading retrieves all the necessary data in a single query.
+
+.Eager Loading
+Eager Loading is a strategy where all necessary data, including related data, is loaded upfront in a single request, ensuring immediate access to all the required information.
+
+.lazy loading
+Lazy Loading is a technique where data is loaded only when it is needed, deferring the fetching of related or associated data until it is explicitly requested.
